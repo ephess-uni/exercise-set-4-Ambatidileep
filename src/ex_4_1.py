@@ -7,7 +7,7 @@ try:
 except ImportError:
     from ex_4_0 import get_shutdown_events
     from util import get_data_file_path
-    
+
 FILENAME = get_data_file_path('messages.log')
 def num_shutdowns(logfile):
     shutdown_events = get_shutdown_events(logfile)
